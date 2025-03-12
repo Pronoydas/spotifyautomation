@@ -15,8 +15,8 @@ public class TokenManager {
 	private static String token;
 	private static Instant exp ;
 	
-	
-	public  synchronized static String renewToken() throws Exception {
+	// synchronized - This keyword ensure one thred can access at one time 
+	public  static String renewToken() throws Exception {
 		
 		if(token == null || Instant.now().isAfter(exp)) {
 			Response r =getAccessToken();
