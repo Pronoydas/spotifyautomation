@@ -1,0 +1,41 @@
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/31n7c3vcjfxsccoba5pdmgwibcdq/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQAQ5PBT5zQtCL5_FMuY-GWfku6LIVJ7MDLgKiv7VQaFipI2G7jbUluSOK3zMR1yNfW-1wRVJAlCIu7pZhEmh-eyE8fIEXh7bUBOVUWE1tjWCfyxyWpJ-uXVuwg0zAk2lj5b411OB57an2JZIKHGi1y4pGA2uTyav3zYUy96ufgwq3w2Yn0PI5_VPSC2stKEH06_lzygXH_rzm_IsBBlFn1Xj4CS_xUIB0tyKXXanW9vn_G8EX9XbnCtvyupweFq4TbMksY6GmPLzSFjsLd2q8wLi9ZBZ1T09K4
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "collaborative": false,
+    "description": "Playlist Created From Rest Assure Update",
+    "public": false
+}
+HTTP/1.1 400 Bad Request
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Wed, 12 Mar 2025 11:11:18 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 400,
+        "message": "Missing required field: name"
+    }
+}

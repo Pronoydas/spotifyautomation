@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-12T16:41:13 IST" name="Default suite" finished-at="2025-03-12T16:41:23 IST" duration-ms="9302">
+    <groups>
+    </groups>
+    <test started-at="2025-03-12T16:41:13 IST" name="Default test" finished-at="2025-03-12T16:41:23 IST" duration-ms="9302">
+      <class name="outhTwo.tests.Testcase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:outhTwo.tests.Testcase@7144655b]" started-at="2025-03-12T16:41:13 IST" name="setup" finished-at="2025-03-12T16:41:14 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreatePlaylist()[pri:-3, instance:outhTwo.tests.Testcase@7144655b]" started-at="2025-03-12T16:41:14 IST" name="CreatePlaylist" description="Create new Playlist" finished-at="2025-03-12T16:41:21 IST" duration-ms="7537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePlaylist -->
+        <test-method signature="retrivePlayList()[pri:0, instance:outhTwo.tests.Testcase@7144655b]" started-at="2025-03-12T16:41:21 IST" name="retrivePlayList" description="Retrive A PlayList" finished-at="2025-03-12T16:41:22 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrivePlayList -->
+        <test-method signature="updatePlayList()[pri:1, instance:outhTwo.tests.Testcase@7144655b]" started-at="2025-03-12T16:41:22 IST" name="updatePlayList" description="Update the PlayList" finished-at="2025-03-12T16:41:22 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlayList -->
+        <test-method signature="CreatePlaylistNeg()[pri:3, instance:outhTwo.tests.Testcase@7144655b]" started-at="2025-03-12T16:41:22 IST" name="CreatePlaylistNeg" description="Create new Playlist Without Name" finished-at="2025-03-12T16:41:23 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePlaylistNeg -->
+      </class> <!-- outhTwo.tests.Testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
